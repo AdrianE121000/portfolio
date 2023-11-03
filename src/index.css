@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0px !important;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.body {
+  background-color: #1C1C27;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.wrapper {
+  background: linear-gradient(38.73deg,
+      rgba(204, 0, 187, 0.15) 0%,
+      rgba(201, 32, 184, 0) 50%),
+    linear-gradient(141.27deg,
+      rgba(0, 70, 209, 0) 50%,
+      rgba(0, 70, 209, 0.15) 100%);
+  width: 100%;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 30% 98%, 0 100%);
+}
+
+a {
+  text-decoration: none;
+}
+
+.select option {
+  background: #212121;
+  margin: 0;
+  border: none;
+}
+
+.flex {
+  display: flex;
+}
+
+.aboutp {
+  color: #c4c4c4;
+  font-size: 1rem;
+  font-weight: 400;
+
+  @media screen and (max-width: 600px) {
+    font-size: 1.2rem;
+  }
+}
+
+.strong {
+  color: #854CE6;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 4px;
+  height: 80px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #222A35;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #575C66;
+  border-radius: 6px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #626970;
+}
