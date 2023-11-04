@@ -1,5 +1,6 @@
 import crypto_market from '../images/crypto_market.jpg';
 import todo_app from '../images/todo_app.jpg';
+import tic_tac_toe from '../images/tic-tac-toe.jpg';
 
 export const Bio = {
   name: 'Adrian Pérez',
@@ -100,25 +101,36 @@ export const skills = [
 
 export const projects = [
   {
-    id: 9,
+    id: 0,
     title: 'Crypto Market',
     description: {
       es: 'Aplicación web que muestra un listado de los precios de las criptomonedas. Se utiliza la API de CoinGecko para obtener datos actualizados sobre los precios de las criptomonedas y se muestran en un formato fácil de entender para los usuarios.',
       en: 'Web application that shows a list of cryptocurrency prices. The CoinGecko API is used to obtain up-to-date data on cryptocurrency prices and display them in an easy-to-understand format for users.',
     },
     image: crypto_market,
-    tags: ['React js', 'API', 'Material UI'],
+    tags: ['React', 'API', 'Material UI', 'State'],
     webapp: 'https://adriane121000.github.io/crypto-market',
   },
   {
-    id: 10,
+    id: 1,
     title: 'Todo App',
     description: {
       es: 'Aplicación web que permite a los usuarios agregar diferentes tareas, así como seleccionar aquellas que han sido completadas y filtrarlas según su estado (completadas o no completadas)',
       en: 'Web application that allows users to add different tasks, as well as select those that have been completed and filter them according to their status (completed or not completed) ',
     },
     image: todo_app,
-    tags: ['React js', 'Tailwindcss', 'Context'],
+    tags: ['React', 'Tailwindcss', 'Context', 'State'],
     webapp: 'https://adriane121000.github.io/todo-app',
+  },
+  {
+    id: 2,
+    title: 'Tic Tac Toe',
+    description: {
+      es: 'Aplicacion web sencilla que te permite disfrutar del juego tres en raya desde tu navegador. Ademas, puedes guardar la partida en el localStorage para continuar mas tarde.(Pendiente modalidad 1 vs IA)',
+      en: 'Simple web application that allows you to enjoy the game tic tac toe from your browser. Additionally, you can save the game in the localStorage to continue later. (Pending modality 1 vs AI)',
+    },
+    image: tic_tac_toe,
+    tags: ['React', 'localStorage', 'State'],
+    webapp: 'https://adriane121000.github.io/tic-tac-toe',
   },
 ];
