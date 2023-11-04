@@ -27,12 +27,14 @@ const ProjectCards = ({ project }) => {
         </div>
       </div>
 
-      <a
-        href={project.webapp}
-        target='_blank'
-        rel='noreferrer'>
-        <button className='viewProject'>{translations.works.view}</button>
-      </a>
+      <div className='viewButton'>
+        <a
+          href={project.webapp}
+          target='_blank'
+          rel='noreferrer'>
+          <button className='viewProject'>{translations.works.view}</button>
+        </a>
+      </div>
     </div>
   );
 };

@@ -66,25 +66,44 @@
 }
 
 .description {
-    font-weight: 200;
+    font-size: 0.8rem;
     color: #b1b2b3;
     overflow: hidden;
     margin-top: 8px;
     display: -webkit-box;
     max-width: 100%;
-    -webkit-line-clamp: 4;
+    -webkit-line-clamp: 5;
     -webkit-box-orient: vertical;
     text-overflow: ellipsis;
 }
 
+.viewButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .viewProject {
-    width: 100%;
+    /*width: 100%;
     padding: 10px;
     background-color: #FFFFFF;
     font-size: 14px;
     font-weight: 700;
-    border: none;
     border-radius: 10px;
+    cursor: pointer;*/
+    background: #171721;
+    border: 1.8px solid #854CE6;
+    border-radius: 10px;
+    color: #854CE6;
     cursor: pointer;
+    padding: 10px;
+    font-weight: 700;
+    font-size: 14px;
     transition: all 0.8s ease-in-out;
+    margin: 0 auto;
+}
+
+.viewProject:hover {
+    background: #854CE6;
+    color: #FFFFFF;
 }
