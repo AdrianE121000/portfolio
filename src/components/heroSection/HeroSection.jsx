@@ -5,6 +5,7 @@ import Typewriter from 'typewriter-effect';
 import { Bio } from '../../data/constants';
 import { useContext } from 'react';
 import Context from '../../context/Context';
+import HeroBgAnimation from '../HeroBgAnimation/HeroBgAnimation';
 
 const HeroSection = () => {
   const { translations } = useContext(Context);
@@ -12,6 +13,9 @@ const HeroSection = () => {
     <div
       className='heroContainer'
       id='about'>
+      <div className='heroBg'>
+        <HeroBgAnimation />
+      </div>
       <div className='heroInnerContainer'>
         <div
           className='heroLeftContainer'

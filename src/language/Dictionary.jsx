@@ -31,8 +31,8 @@ export const dictionary = {
       </Fragment>,
       <Fragment key={4}>
         Me gusta <strong className='strong'>Aprender</strong> cosas nuevas todos
-        los días, para renovar mis maneras de trabajar y ser capaz de
-        encontrarla mejor solución.
+        los días, para renovar mis maneras de trabajar y ser capaz de encontrar
+        la mejor solución.
       </Fragment>,
     ],
     skill: {

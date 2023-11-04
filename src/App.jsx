@@ -15,9 +15,8 @@ function App() {
             <Navbar />
             <div className='body'>
               <HeroSection />
-              <div className='wrapper'>
-                <Skills />
-              </div>
+
+              <Skills />
               <Projects />
               <Footer />
             </div>
