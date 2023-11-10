@@ -2,6 +2,7 @@ import React from 'react';
 import './navbar.css';
 import { DiCssdeck } from 'react-icons/di';
 import { FaBars } from 'react-icons/fa';
+import { FaTimes } from 'react-icons/fa';
 import { Bio } from '../../data/constants';
 import { useContext } from 'react';
 import Context from '../../context/Context';
@@ -22,16 +23,29 @@ const Navbar = () => {
               marginBottom: '20',
               cursor: 'pointer',
             }}>
-            <DiCssdeck size='3rem' />{' '}
-            <div className='span'>{translations.header.port}</div>
+            <div
+              style={{ color: '#854CE6' }}
+              className='span'>
+              {translations.header.port}
+            </div>
           </a>
         </div>
         <div className='mobileIcon'>
-          <FaBars
-            onClick={() => {
-              setIsOpen(!isOpen);
-            }}
-          />
+          {!isOpen ? (
+            <FaBars
+              color='#854CE6'
+              onClick={() => {
+                setIsOpen(!isOpen);
+              }}
+            />
+          ) : (
+            <FaTimes
+              color='#854CE6'
+              onClick={() => {
+                setIsOpen(!isOpen);
+              }}
+            />
+          )}
         </div>
         <ul className='navItems'>
           <a
@@ -68,13 +82,7 @@ const Navbar = () => {
           </a>
         </div>
         {isOpen && (
-          <div
-            className='mobileMenu'
-            style={{
-              transform: isOpen ? 'translateY(0)' : 'translateY(-100%)',
-              opacity: isOpen ? '100%' : '0',
-              zIndex: isOpen ? '1000' : '-1000',
-            }}>
+          <div className='mobileMenu'>
             <a
               className='mobileLink'
               href='#about'
