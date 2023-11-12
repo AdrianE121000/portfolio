@@ -25,10 +25,7 @@ const Skills = () => {
                   <div
                     className='skillsItem'
                     key={index}>
-                    <img
-                      className='skillImg'
-                      src={image}
-                    />
+                    <i className='skillImg'>{image}</i>
                     {name}
                   </div>
                 ))}
