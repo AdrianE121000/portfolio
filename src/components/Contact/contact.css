@@ -1,0 +1,103 @@
+.contactContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+    align-items: center;
+
+    @media (max-width: 960px) {
+        padding: 0px;
+    }
+}
+
+.contactWrapper {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1350px;
+    padding: 0px 0px 80px 0px;
+    gap: 12px;
+
+    @media (max-width: 960px) {
+        flex-direction: column;
+    }
+}
+
+.contactTitle {
+    font-size: 42px;
+    text-align: center;
+    font-weight: 600;
+    margin-top: 20px;
+    color: #F2F3F4;
+
+    @media (max-width: 768px) {
+        margin-top: 12px;
+        font-size: 32px;
+    }
+}
+
+.contactForm {
+    width: 95%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    background-color: #171721;
+    padding: 32px;
+    border-radius: 16px;
+    box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
+    margin-top: 28px;
+    gap: 12px;
+}
+
+.contactInput {
+    flex: 1;
+    background-color: transparent;
+    border: 1px solid #b1b2b3;
+    outline: none;
+    font-size: 18px;
+    color: #F2F3F4;
+    border-radius: 12px;
+    padding: 12px 16px;
+}
+
+.contactInput:focus {
+
+    border: 1px solid #854CE6;
+
+}
+
+.contactTextarea {
+    flex: 1;
+    background-color: transparent;
+    border: 1px solid #b1b2b3;
+    outline: none;
+    font-size: 18px;
+    color: #F2F3F4;
+    border-radius: 12px;
+    padding: 12px 16px;
+}
+
+.contactTextarea:focus {
+    border: 1px solid #854CE6;
+}
+
+.contactButton {
+    width: 100%;
+    text-decoration: none;
+    text-align: center;
+    background: hsla(271, 100%, 50%, 1);
+    background: linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
+    background: -moz-linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
+    background: -webkit-linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
+    padding: 13px 16px;
+    margin-top: 2px;
+    border-radius: 12px;
+    border: none;
+    color: #F2F3F4;
+    font-size: 18px;
+    font-weight: 600;
+}
