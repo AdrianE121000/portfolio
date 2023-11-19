@@ -1,9 +1,9 @@
 import crypto_market from '../images/crypto_market.jpg';
 import todo_app from '../images/todo_app.jpg';
 import tic_tac_toe from '../images/tic-tac-toe.jpg';
+import counyties_world from '../images/countries-world.jpg';
 import { BsGithub, BsTerminalFill } from 'react-icons/bs';
 import { ImGit, ImHtmlFive } from 'react-icons/im';
-//import { FaTailwind, SiVisualstudiocode } from 'react-icons/fa';
 import {
   SiBootstrap,
   SiCss3,
@@ -134,5 +134,16 @@ export const projects = [
     image: tic_tac_toe,
     tags: ['React', 'localStorage', 'State'],
     webapp: 'https://adriane121000.github.io/tic-tac-toe',
+  },
+  {
+    id: 3,
+    title: 'CountryInfo',
+    description: {
+      es: 'Aplicación web que permite a los usuarios buscar cualquier país y acceder instantáneamente a información detallada como población, capital, moneda y más. Simplemente ingresa el nombre del país en la barra de búsqueda, y nuestra aplicación obtendrá los datos de una API externa para proporcionarte todos los detalles relevantes. ¡Explora el mundo al alcance de tus dedos con CountryInfo!',
+      en: 'Web application that allows users to search for any country and instantly access detailed information such as population, capital, currency and more. Simply enter the country name in the search bar, and our app will pull the data from an external API to provide you with all the relevant details. Explore the world at your fingertips with CountryInfo!',
+    },
+    image: counyties_world,
+    tags: ['React', 'API', 'State', 'useRef'],
+    webapp: 'https://adriane121000.github.io/countries-world',
   },
 ];
