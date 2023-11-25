@@ -1,5 +1,7 @@
 .heroContainer {
-    background: #191924;
+    background-color: linear-gradient(343.07deg,
+            rgba(132, 59, 206, 0.06) 5.71%,
+            rgba(132, 59, 206, 0) 64.83%);
     display: flex;
     justify-content: center;
     position: relative;
@@ -14,8 +16,6 @@
     }
 
     z-index: 1;
-
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 95%, 0 100%);
 }
 
 .heroBg {

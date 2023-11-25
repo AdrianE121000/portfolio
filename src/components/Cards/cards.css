@@ -3,7 +3,7 @@
     background-color: #171721;
     cursor: pointer;
     border-radius: 10px;
-    box-shadow: 0 0 12px 4px rgba(0, 0, 0, 0.4);
+    box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
     overflow: hidden;
     padding: 26px 20px;
     display: flex;
@@ -72,7 +72,7 @@
     margin-top: 8px;
     display: -webkit-box;
     max-width: 100%;
-    -webkit-line-clamp: 5;
+    -webkit-line-clamp: 4;
     -webkit-box-orient: vertical;
     text-overflow: ellipsis;
 }
@@ -84,13 +84,6 @@
 }
 
 .viewProject {
-    /*width: 100%;
-    padding: 10px;
-    background-color: #FFFFFF;
-    font-size: 14px;
-    font-weight: 700;
-    border-radius: 10px;
-    cursor: pointer;*/
     background: #171721;
     border: 1.8px solid #854CE6;
     border-radius: 10px;

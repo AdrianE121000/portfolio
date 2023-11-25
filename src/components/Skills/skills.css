@@ -5,14 +5,10 @@
     position: relative;
     z-index: 1;
     align-items: center;
-    background: linear-gradient(38.73deg,
-            rgba(204, 0, 187, 0.15) 0%,
-            rgba(201, 32, 184, 0) 50%),
-        linear-gradient(141.27deg,
-            rgba(0, 70, 209, 0) 50%,
-            rgba(0, 70, 209, 0.15) 100%);
+    background-color: linear-gradient(343.07deg,
+            rgba(132, 59, 206, 0.06) 5.71%,
+            rgba(132, 59, 206, 0) 64.83%);
     width: 100%;
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 95%, 0 100%);
 }
 
 .wrapperr {
@@ -57,7 +53,6 @@
     width: 100%;
     max-width: 500px;
     background: #171721;
-    border: 0.1px solid #854ce6;
     box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
     border-radius: 16px;
     padding: 18px 36px;

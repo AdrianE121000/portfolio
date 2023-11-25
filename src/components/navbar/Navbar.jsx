@@ -1,6 +1,5 @@
 import React from 'react';
 import './navbar.css';
-import { DiCssdeck } from 'react-icons/di';
 import { FaBars } from 'react-icons/fa';
 import { FaTimes } from 'react-icons/fa';
 import { Bio } from '../../data/constants';
@@ -16,6 +15,7 @@ const Navbar = () => {
       <div className='navbarContainer'>
         <div>
           <a
+            href='#root'
             style={{
               display: 'flex',
               alignItems: 'center',
