@@ -142,4 +142,15 @@ export const projects = [
     tags: ['React', 'API', 'State', 'useRef'],
     webapp: 'https://adriane121000.github.io/countries-world',
   },
+  {
+    id: 4,
+    title: 'Quiz App',
+    description: {
+      es: 'Aplicación web que permite a los usuarios hacer un quiz para medir sus habilidades en distintos lenguages de programacion (por ahora solo JavaScript y Python uqeda pendiente agregar otros) ',
+      en: 'Web application that allows users to take a quiz to measure their skills in different programming languages ​​(for now only JavaScript and Python, others pending to be added)',
+    },
+    image: '/quiz-app.jpg',
+    tags: ['React', 'Zustand', 'MaterialUI', 'State'],
+    webapp: 'https://adriane121000.github.io/javascript-quiz',
+  },
 ];
