@@ -1,6 +1,4 @@
-import React from 'react';
 import './heroSection.css';
-import programer from '../../images/programer.svg';
 import Typewriter from 'typewriter-effect';
 import { Bio } from '../../data/constants';
 import { useContext } from 'react';
@@ -52,7 +50,7 @@ const HeroSection = () => {
           id='Right'>
           <img
             className='imageHero'
-            src={programer}
+            src='/programer.svg'
             alt='hero-image'
           />
         </div>
