@@ -79,6 +79,7 @@
     color: #F2F3F4;
     border-radius: 12px;
     padding: 12px 16px;
+    resize: none;
 }
 
 .contactTextarea:focus {
