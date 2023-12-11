@@ -50,7 +50,7 @@ const HeroSection = () => {
           id='Right'>
           <img
             className='imageHero'
-            src='/programer.svg'
+            src='https://adriane121000.github.io/portfolio/programer.svg'
             alt='hero-image'
           />
         </div>
