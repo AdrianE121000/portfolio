@@ -22,27 +22,31 @@ function Footer() {
         <div className='socialMediaIcons'>
           <a
             href={Bio.twitter}
-            target='display'>
+            target='_blank'
+            rel='noreferrer'>
             <FaXTwitter />
           </a>
           <a
             href={Bio.linkedin}
-            target='display'>
+            target='_blank'
+            rel='noreferrer'>
             <FaLinkedin />
           </a>
           <a
             href={Bio.insta}
-            target='display'>
+            target='_blank'
+            rel='noreferrer'>
             <FaInstagram />
           </a>
           <a
             href={Bio.telegram}
-            target='display'>
+            target='_blank'
+            rel='noreferrer'>
             <FaTelegramPlane />
           </a>
         </div>
         <p>
-          &copy; 2023 Adrian Pérez.{'  '}
+          &copy; {new Date().getFullYear()} Adrian Pérez.{'  '}
           <span>{translations.footer.copy}</span>{' '}
         </p>
       </footer>
