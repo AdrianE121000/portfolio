@@ -1,4 +1,3 @@
-import React from 'react';
 import './navbar.css';
 import { FaBars } from 'react-icons/fa';
 import { FaTimes } from 'react-icons/fa';

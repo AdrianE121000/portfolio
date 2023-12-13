@@ -1,4 +1,3 @@
-import React from 'react';
 import './skills.css';
 import { useContext } from 'react';
 import Context from '../../context/Context';

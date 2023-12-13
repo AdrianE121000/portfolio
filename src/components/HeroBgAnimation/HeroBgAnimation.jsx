@@ -1,4 +1,3 @@
-import React from 'react';
 const HeroBgAnimation = () => (
   <div style={{ width: '600px', height: '600px' }}>
     <svg

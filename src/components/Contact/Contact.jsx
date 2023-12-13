@@ -19,7 +19,7 @@ function Contact() {
         'xvRfXLmm5nFPJTm2S'
       )
       .then(
-        (result) => {
+        () => {
           setOpen(true);
           form.current.reset();
         },

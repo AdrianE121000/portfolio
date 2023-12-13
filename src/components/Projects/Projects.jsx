@@ -1,4 +1,3 @@
-import React from 'react';
 import './projects.css';
 import ProjectCard from '../Cards/ProjectCards';
 import { projects } from '../../data/constants';
