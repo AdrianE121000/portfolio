@@ -18,7 +18,7 @@ export const dictionary = {
     about: [
       <Fragment key={1}>
         Soy una persona <strong className='strong'>Motivada </strong> y{' '}
-        <strong className='strong'> Polivalente</strong>, siempre con ganas de
+        <strong className='strong'> Versátil</strong>, siempre con ganas de
         afrontar nuevos retos. Me dedico a brindar resultados de alta calidad.
       </Fragment>,
       <Fragment key={2}>
