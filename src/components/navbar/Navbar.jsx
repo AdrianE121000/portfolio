@@ -81,7 +81,8 @@ const Navbar = () => {
           <a
             className='githubButton'
             href={Bio.github}
-            target='_blank'>
+            target='_blank'
+            rel='noreferrer'>
             {translations.header.gh}
           </a>
         </div>
@@ -136,7 +137,8 @@ const Navbar = () => {
                 width: 'max-content',
               }}
               href={Bio.github}
-              target='_blank'>
+              target='_blank'
+              rel='noreferrer'>
               {translations.header.gh}
             </a>
           </div>
