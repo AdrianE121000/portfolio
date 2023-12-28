@@ -153,4 +153,15 @@ export const projects = [
     tags: ['React', 'Zustand', 'MaterialUI', 'State'],
     webapp: 'https://adriane121000.github.io/javascript-quizz',
   },
+  {
+    id: 5,
+    title: 'User Manager',
+    description: {
+      es: 'Aplicación web que permite mostrar, agregar, eliminar y editar usuarios, así como tambíen obtener usuarios aleatorios de una API, guarda todos los usuarios en el localStorage, tambíen cuenta con una paginación y modo claro y oscuro para mejorar la experiencia del usuario.',
+      en: 'Web application that allows you to show, add, delete and edit users, as well as obtain random users from an API, saves all users in the localStorage, also has pagination and light and dark mode to improve the user experience.',
+    },
+    image: 'https://adriane121000.github.io/portfolio/user-manager.jpg',
+    tags: ['React', 'Zustand', 'Tailwind', 'Fetch'],
+    webapp: 'https://adriane121000.github.io/user-crud',
+  },
 ];
