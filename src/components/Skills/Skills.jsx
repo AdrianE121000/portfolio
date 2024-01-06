@@ -24,7 +24,7 @@ const Skills = () => {
                   <div
                     className='skillsItem'
                     key={index}>
-                    <i className='skillImg'>{image}</i>
+                    {image}
                     {name}
                   </div>
                 ))}

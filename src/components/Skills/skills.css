@@ -84,6 +84,8 @@
     margin-bottom: 20px;
 }
 
+
+
 .skillsItem {
     font-size: 16px;
     font-weight: 400;
@@ -105,4 +107,8 @@
         font-size: 14px;
         padding: 6px 12px;
     }
+}
+
+.skillsItem img {
+    width: 25px;
 }

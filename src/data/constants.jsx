@@ -1,17 +1,15 @@
 import { BsGithub, BsTerminalFill } from 'react-icons/bs';
 import { ImGit, ImHtmlFive } from 'react-icons/im';
 import {
-  SiBootstrap,
   SiCss3,
   SiJavascript,
   SiMarkdown,
   SiNotion,
   SiReact,
-  SiRedux,
   SiTailwindcss,
   SiVisualstudiocode,
-  SiMui,
 } from 'react-icons/si';
+import { TbBrandNextjs } from 'react-icons/tb';
 
 export const Bio = {
   name: 'Adrian Pérez',
@@ -34,8 +32,17 @@ export const skills = [
         image: <SiReact color='#61dafb' />,
       },
       {
-        name: 'Redux',
-        image: <SiRedux color='#764abc' />,
+        name: 'Nextjs',
+        image: <TbBrandNextjs />,
+      },
+      {
+        name: 'Zustand',
+        image: (
+          <img
+            src='https://raw.githubusercontent.com/pmndrs/zustand/main/bear.jpg'
+            alt='zuztand logo'
+          />
+        ),
       },
       {
         name: 'HTML',
@@ -48,14 +55,6 @@ export const skills = [
       {
         name: 'JavaScript',
         image: <SiJavascript color='#ead41c' />,
-      },
-      {
-        name: 'Bootstrap',
-        image: <SiBootstrap color='#ab3dff' />,
-      },
-      {
-        name: 'Material UI',
-        image: <SiMui color='#0081cb' />,
       },
       {
         name: 'Tailwind',
