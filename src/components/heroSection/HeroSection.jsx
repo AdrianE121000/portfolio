@@ -43,6 +43,13 @@ const HeroSection = () => {
               </p>
             ))}
           </div>
+          <a
+            className='cvButton'
+            href={Bio.cv}
+            target='_blank'
+            rel='noreferrer'>
+            {translations.home.cv}
+          </a>
         </div>
 
         <div

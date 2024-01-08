@@ -14,6 +14,7 @@ export const dictionary = {
       title: 'Hola, yo soy ',
       subtitle: 'Soy un',
       rol: 'Desarrollador Front End',
+      cv: 'Revisa mi CV',
     },
     about: [
       <Fragment key={1}>
@@ -68,6 +69,7 @@ export const dictionary = {
       title: 'Hi, I am',
       subtitle: 'I am a',
       rol: 'Front End Developer',
+      vc: 'Check my CV',
     },
     about: [
       <Fragment key={1}>
