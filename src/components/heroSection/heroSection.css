@@ -117,8 +117,7 @@
 }
 
 .textLoop span {
-    color: #854CE6;
-    cursor: pointer;
+    color: yellow;
 }
 
 .subTitle {
@@ -176,8 +175,6 @@
 }
 
 .cvButton {
-    -webkit-appearance: button;
-    -moz-appearance: button;
     appearance: button;
     text-decoration: none;
     width: 95%;
