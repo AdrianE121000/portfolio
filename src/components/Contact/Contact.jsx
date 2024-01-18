@@ -41,25 +41,31 @@ function Contact() {
             ref={form}
             onSubmit={handleSubmit}>
             <input
+              type='email'
               className='contactInput'
               placeholder={translations.contact.email}
               name='from_email'
+              required
             />
             <input
               className='contactInput'
               placeholder={translations.contact.name}
               name='from_name'
+              type='text'
+              required
             />
             <input
               className='contactInput'
               placeholder={translations.contact.subject}
               name='subject'
+              type='text'
             />
             <textarea
               className='contactTextarea'
               placeholder={translations.contact.message}
               rows='4'
               name='message'
+              required
             />
             <input
               className='contactButton'
