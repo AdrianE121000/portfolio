@@ -100,3 +100,19 @@
     background: #854CE6;
     color: #FFFFFF;
 }
+
+.members {
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.members img {
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    margin-left: -10px;
+    background-color: #FFFFFF;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border: 3px solid #171721;
+}

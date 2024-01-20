@@ -91,6 +91,29 @@ export const skills = [
 export const projects = [
   {
     id: 0,
+    title: 'learnDeals',
+    description: {
+      es: 'Blog donde se publican diferentes cursos con promociones de descuento de Udemy, el usuario puede filtrar por nombre y categoría, se utiliza una API para obtener los datos del curso.',
+      en: 'Blog where different courses with Udemy discount promotions are posted, the user can filter by name and category, an API is used to obtain the course data.',
+    },
+    image: 'https://adriane121000.github.io/portfolio/learnDeals.jpg',
+    tags: ['React', 'API', 'Tailwind', 'Python'],
+    member: [
+      {
+        name: 'Adrian Pérez',
+        github: 'https://github.com/AdrianE121000',
+        img: 'https://unavatar.io/AdrianE121000',
+      },
+      {
+        name: 'Enmanuel Torres',
+        github: 'https://github.com/manu-tgz',
+        img: 'https://unavatar.io/manu-tgz',
+      },
+    ],
+    webapp: 'https://adriane121000.github.io/javascript-quizz',
+  },
+  {
+    id: 1,
     title: 'Quiz App',
     description: {
       es: 'Aplicación web que permite a los usuarios hacer un quiz para medir sus habilidades en distintos lenguages de programacion (por ahora solo JavaScript y Python uqeda pendiente agregar otros) ',
@@ -98,10 +121,17 @@ export const projects = [
     },
     image: 'https://adriane121000.github.io/portfolio/quiz-app.jpg',
     tags: ['React', 'Zustand', 'MaterialUI', 'State'],
+    member: [
+      {
+        name: 'Adrian Pérez',
+        github: 'https://github.com/AdrianE121000',
+        img: 'https://unavatar.io/AdrianE121000',
+      },
+    ],
     webapp: 'https://adriane121000.github.io/javascript-quizz',
   },
   {
-    id: 1,
+    id: 2,
     title: 'User Manager',
     description: {
       es: 'Aplicación web que permite mostrar, agregar, eliminar y editar usuarios, así como tambíen obtener usuarios aleatorios de una API, guarda todos los usuarios en el localStorage, tambíen cuenta con una paginación y modo claro y oscuro para mejorar la experiencia del usuario.',
@@ -109,10 +139,17 @@ export const projects = [
     },
     image: 'https://adriane121000.github.io/portfolio/user-manager.jpg',
     tags: ['React', 'Zustand', 'Tailwind', 'Fetch'],
+    member: [
+      {
+        name: 'Adrian Pérez',
+        github: 'https://github.com/AdrianE121000',
+        img: 'https://unavatar.io/AdrianE121000',
+      },
+    ],
     webapp: 'https://adriane121000.github.io/user-crud',
   },
   {
-    id: 2,
+    id: 3,
     title: 'Todo App',
     description: {
       es: 'Aplicación web que permite a los usuarios agregar diferentes tareas, así como seleccionar aquellas que han sido completadas y filtrarlas según su estado (completadas o no completadas)',
@@ -120,10 +157,17 @@ export const projects = [
     },
     image: 'https://adriane121000.github.io/portfolio/todo_app.jpg',
     tags: ['React', 'Tailwindcss', 'Context', 'State'],
+    member: [
+      {
+        name: 'Adrian Pérez',
+        github: 'https://github.com/AdrianE121000',
+        img: 'https://unavatar.io/AdrianE121000',
+      },
+    ],
     webapp: 'https://adriane121000.github.io/todo-app',
   },
   {
-    id: 3,
+    id: 4,
     title: 'Crypto Market',
     description: {
       es: 'Aplicación web que muestra un listado de los precios de las criptomonedas. Se utiliza la API de CoinGecko para obtener datos actualizados sobre los precios de las criptomonedas y se muestran en un formato fácil de entender para los usuarios.',
@@ -131,11 +175,18 @@ export const projects = [
     },
     image: 'https://adriane121000.github.io/portfolio/crypto_market.jpg',
     tags: ['React', 'API', 'Material UI', 'State'],
+    member: [
+      {
+        name: 'Adrian Pérez',
+        github: 'https://github.com/AdrianE121000',
+        img: 'https://unavatar.io/AdrianE121000',
+      },
+    ],
     webapp: 'https://adriane121000.github.io/crypto-market',
   },
 
   {
-    id: 4,
+    id: 5,
     title: 'Tic Tac Toe',
     description: {
       es: 'Aplicacion web sencilla que te permite disfrutar del juego tres en raya desde tu navegador. Ademas, puedes guardar la partida en el localStorage para continuar mas tarde.(Pendiente modalidad 1 vs IA)',
@@ -143,10 +194,17 @@ export const projects = [
     },
     image: 'https://adriane121000.github.io/portfolio/tic-tac-toe.jpg',
     tags: ['React', 'localStorage', 'State'],
+    member: [
+      {
+        name: 'Adrian Pérez',
+        github: 'https://github.com/AdrianE121000',
+        img: 'https://unavatar.io/AdrianE121000',
+      },
+    ],
     webapp: 'https://adriane121000.github.io/tic-tac-toe',
   },
   {
-    id: 5,
+    id: 6,
     title: 'CountryInfo',
     description: {
       es: 'Aplicación web que permite a los usuarios buscar cualquier país y acceder instantáneamente a información detallada como población, capital, moneda y más. Simplemente ingresa el nombre del país en la barra de búsqueda, y nuestra aplicación obtendrá los datos de una API externa para proporcionarte todos los detalles relevantes. ¡Explora el mundo al alcance de tus dedos con CountryInfo!',
@@ -154,6 +212,13 @@ export const projects = [
     },
     image: 'https://adriane121000.github.io/portfolio/countries-world.jpg',
     tags: ['React', 'API', 'State', 'useRef'],
+    member: [
+      {
+        name: 'Adrian Pérez',
+        github: 'https://github.com/AdrianE121000',
+        img: 'https://unavatar.io/AdrianE121000',
+      },
+    ],
     webapp: 'https://adriane121000.github.io/countries-world',
   },
 ];

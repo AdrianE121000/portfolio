@@ -26,6 +26,20 @@ const ProjectCards = ({ project }) => {
           {language === 'es' ? project.description.es : project.description.en}
         </div>
       </div>
+      <div className='members'>
+        {project.member?.map((member, index) => (
+          <a
+            key={index}
+            href={member.github}
+            target='_blank'
+            rel='noreferrer'>
+            <img
+              src={member.img}
+              alt='user photo'
+            />
+          </a>
+        ))}
+      </div>
 
       <div className='viewButton'>
         <a
