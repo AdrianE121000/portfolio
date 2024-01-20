@@ -110,7 +110,7 @@ export const projects = [
         img: 'https://unavatar.io/manu-tgz',
       },
     ],
-    webapp: 'https://adriane121000.github.io/javascript-quizz',
+    webapp: 'https://learndeals.netlify.app/',
   },
   {
     id: 1,
