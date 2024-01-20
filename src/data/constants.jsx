@@ -96,7 +96,8 @@ export const projects = [
       es: 'Blog donde se publican diferentes cursos con promociones de descuento de Udemy, el usuario puede filtrar por nombre y categoría, se utiliza una API para obtener los datos del curso.',
       en: 'Blog where different courses with Udemy discount promotions are posted, the user can filter by name and category, an API is used to obtain the course data.',
     },
-    image: 'https://adriane121000.github.io/portfolio/learnDeals.jpg',
+    image:
+      'https://github.com/AdrianE121000/portfolio/blob/master/public/learndDeals.jpg?raw=true',
     tags: ['React', 'API', 'Tailwind', 'Python'],
     member: [
       {
