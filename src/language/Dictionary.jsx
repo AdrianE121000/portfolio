@@ -69,7 +69,7 @@ export const dictionary = {
       title: 'Hi, I am',
       subtitle: 'I am a',
       rol: 'Front End Developer',
-      vc: 'Check my CV',
+      cv: 'Check my CV',
     },
     about: [
       <Fragment key={1}>
