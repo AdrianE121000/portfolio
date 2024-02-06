@@ -186,24 +186,24 @@ export const projects = [
     webapp: 'https://adriane121000.github.io/crypto-market',
   },
 
-  {
-    id: 5,
-    title: 'Tic Tac Toe',
-    description: {
-      es: 'Aplicacion web sencilla que te permite disfrutar del juego tres en raya desde tu navegador. Ademas, puedes guardar la partida en el localStorage para continuar mas tarde.(Pendiente modalidad 1 vs IA)',
-      en: 'Simple web application that allows you to enjoy the game tic tac toe from your browser. Additionally, you can save the game in the localStorage to continue later. (Pending modality 1 vs AI)',
-    },
-    image: 'https://adriane121000.github.io/portfolio/tic-tac-toe.jpg',
-    tags: ['React', 'localStorage', 'State'],
-    member: [
-      {
-        name: 'Adrian Pérez',
-        github: 'https://github.com/AdrianE121000',
-        img: 'https://unavatar.io/AdrianE121000',
-      },
-    ],
-    webapp: 'https://adriane121000.github.io/tic-tac-toe',
-  },
+  // {
+  //   id: 5,
+  //   title: 'Tic Tac Toe',
+  //   description: {
+  //     es: 'Aplicacion web sencilla que te permite disfrutar del juego tres en raya desde tu navegador. Ademas, puedes guardar la partida en el localStorage para continuar mas tarde.(Pendiente modalidad 1 vs IA)',
+  //     en: 'Simple web application that allows you to enjoy the game tic tac toe from your browser. Additionally, you can save the game in the localStorage to continue later. (Pending modality 1 vs AI)',
+  //   },
+  //   image: 'https://adriane121000.github.io/portfolio/tic-tac-toe.jpg',
+  //   tags: ['React', 'localStorage', 'State'],
+  //   member: [
+  //     {
+  //       name: 'Adrian Pérez',
+  //       github: 'https://github.com/AdrianE121000',
+  //       img: 'https://unavatar.io/AdrianE121000',
+  //     },
+  //   ],
+  //   webapp: 'https://adriane121000.github.io/tic-tac-toe',
+  // },
   {
     id: 6,
     title: 'CountryInfo',
