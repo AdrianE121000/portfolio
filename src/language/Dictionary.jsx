@@ -17,21 +17,21 @@ export const dictionary = {
       cv: 'Revisa mi CV',
     },
     about: [
-      <Fragment key={1}>
+      <Fragment key={0}>
         Soy una persona <strong className='strong'>Motivada </strong> y{' '}
         <strong className='strong'> Versátil</strong>, siempre con ganas de
         afrontar nuevos retos. Me dedico a brindar resultados de alta calidad.
       </Fragment>,
-      <Fragment key={2}>
+      <Fragment key={1}>
         Con una <strong className='strong'>Actitud</strong> positiva y una
         mentalidad de crecimiento, estoy listo para hacer una contribución
         significativa y lograr grandes cosas.
       </Fragment>,
-      <Fragment key={3}>
+      <Fragment key={2}>
         Mi método de <strong className='strong'>Trabajo</strong> se basa en la
         cooperación y en la organización, sin dejar de lado la eficiencia.
       </Fragment>,
-      <Fragment key={4}>
+      <Fragment key={3}>
         Me gusta <strong className='strong'>Aprender</strong> cosas nuevas todos
         los días, para renovar mis maneras de trabajar y ser capaz de encontrar
         la mejor solución.
