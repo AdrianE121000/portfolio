@@ -30,7 +30,11 @@ const Navbar = () => {
             <div
               style={{ color: '#854CE6' }}
               className='span'>
-              {translations.header.port}
+              <img
+                className='avatar'
+                src='https://unavatar.io/AdrianE121000'
+                alt=''
+              />
             </div>
           </a>
         </div>
@@ -52,7 +56,12 @@ const Navbar = () => {
           )}
         </div>
         <ul className='navItems'>
-          <div style={{ display: 'flex' }}>
+          <div
+            style={{
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+            }}>
             <TbUserCode
               color='#854CE6'
               size='25px'
@@ -63,7 +72,12 @@ const Navbar = () => {
               {translations.header.about}
             </a>
           </div>
-          <div style={{ display: 'flex' }}>
+          <div
+            style={{
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+            }}>
             <FaCode
               color='#854CE6'
               size='25px'
@@ -74,7 +88,12 @@ const Navbar = () => {
               {translations.header.skills}
             </a>
           </div>
-          <div style={{ display: 'flex' }}>
+          <div
+            style={{
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+            }}>
             <FaLaptopCode
               color='#854CE6'
               size='25px'
@@ -85,7 +104,12 @@ const Navbar = () => {
               {translations.header.works}
             </a>
           </div>
-          <div style={{ display: 'flex' }}>
+          <div
+            style={{
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+            }}>
             <TiContacts
               color='#854CE6'
               size='25px'
@@ -96,7 +120,12 @@ const Navbar = () => {
               {translations.header.contact}
             </a>
           </div>
-          <div style={{ display: 'flex' }}>
+          <div
+            style={{
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+            }}>
             <IoLanguageOutline
               color='#854CE6'
               size='25px'
@@ -123,7 +152,12 @@ const Navbar = () => {
         </div>
         {isOpen && (
           <div className='mobileMenu'>
-            <div style={{ display: 'flex' }}>
+            <div
+              style={{
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+              }}>
               <TbUserCode
                 color='#854CE6'
                 size='25px'
@@ -134,7 +168,12 @@ const Navbar = () => {
                 {translations.header.about}
               </a>
             </div>
-            <div style={{ display: 'flex' }}>
+            <div
+              style={{
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+              }}>
               <FaCode
                 color='#854CE6'
                 size='25px'
@@ -145,7 +184,12 @@ const Navbar = () => {
                 {translations.header.skills}
               </a>
             </div>
-            <div style={{ display: 'flex' }}>
+            <div
+              style={{
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+              }}>
               <FaLaptopCode
                 color='#854CE6'
                 size='25px'
@@ -156,7 +200,12 @@ const Navbar = () => {
                 {translations.header.works}
               </a>
             </div>
-            <div style={{ display: 'flex' }}>
+            <div
+              style={{
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+              }}>
               <TiContacts
                 color='#854CE6'
                 size='25px'
@@ -167,7 +216,12 @@ const Navbar = () => {
                 {translations.header.contact}
               </a>
             </div>
-            <div style={{ display: 'flex' }}>
+            <div
+              style={{
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+              }}>
               <IoLanguageOutline
                 color='#854CE6'
                 size='25px'
