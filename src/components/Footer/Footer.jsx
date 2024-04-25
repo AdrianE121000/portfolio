@@ -16,28 +16,48 @@ function Footer() {
       <footer className='footerWrapper'>
         <h1 className='footerLogo'>Adrian Pérez</h1>
         <nav className='footerNav'>
-          <div style={{ display: 'flex' }}>
+          <div
+            style={{
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+            }}>
             <TbUserCode
               color='#854CE6'
               size='25px'
             />
             <a href='#about'>{translations.header.about}</a>
           </div>
-          <div style={{ display: 'flex' }}>
+          <div
+            style={{
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+            }}>
             <FaCode
               color='#854CE6'
               size='25px'
             />
             <a href='#skills'>{translations.header.skills}</a>
           </div>
-          <div style={{ display: 'flex' }}>
+          <div
+            style={{
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+            }}>
             <FaLaptopCode
               color='#854CE6'
               size='25px'
             />
             <a href='#projects'>{translations.header.works}</a>
           </div>
-          <div style={{ display: 'flex' }}>
+          <div
+            style={{
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+            }}>
             <TiContacts
               color='#854CE6'
               size='25px'
