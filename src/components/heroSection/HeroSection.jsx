@@ -57,7 +57,7 @@ const HeroSection = () => {
           id='Right'>
           <img
             className='imageHero'
-            src='https://adriane121000.github.io/portfolio/programer.svg'
+            src='/programer.svg'
             alt='hero-image'
           />
         </div>
