@@ -198,7 +198,7 @@ export const projects = [
       es: 'Aplicación web que muestra un listado de los precios de las criptomonedas. Se utiliza la API de CoinGecko para obtener datos actualizados sobre los precios de las criptomonedas y se muestran en un formato fácil de entender para los usuarios.',
       en: 'Web application that shows a list of cryptocurrency prices. The CoinGecko API is used to obtain up-to-date data on cryptocurrency prices and display them in an easy-to-understand format for users.',
     },
-    image: '/public/crypto_market.webp',
+    image: '/crypto_market.webp',
     tags: ['React', 'Material UI'],
     member: [
       {
