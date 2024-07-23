@@ -114,29 +114,29 @@ export const skills = [
 ];
 
 export const projects = [
-  {
-    id: 0,
-    title: 'learnDeals',
-    description: {
-      es: 'Blog donde se publican diferentes cursos con promociones de descuento de Udemy, el usuario puede filtrar por nombre y categoría, se utiliza una API para obtener los datos del curso.',
-      en: 'Blog where different courses with Udemy discount promotions are posted, the user can filter by name and category, an API is used to obtain the course data.',
-    },
-    image: '/learndDeals.webp',
-    tags: ['React', 'Tailwind', 'Python'],
-    member: [
-      {
-        name: 'Adrian Pérez',
-        github: 'https://github.com/AdrianE121000',
-        img: 'https://unavatar.io/AdrianE121000',
-      },
-      {
-        name: 'Enmanuel Torres',
-        github: 'https://github.com/manu-tgz',
-        img: 'https://unavatar.io/manu-tgz',
-      },
-    ],
-    webapp: 'https://learndeals.netlify.app/',
-  },
+  // {
+  //   id: 0,
+  //   title: 'learnDeals',
+  //   description: {
+  //     es: 'Blog donde se publican diferentes cursos con promociones de descuento de Udemy, el usuario puede filtrar por nombre y categoría, se utiliza una API para obtener los datos del curso.',
+  //     en: 'Blog where different courses with Udemy discount promotions are posted, the user can filter by name and category, an API is used to obtain the course data.',
+  //   },
+  //   image: '/learndDeals.webp',
+  //   tags: ['React', 'Tailwind', 'Python'],
+  //   member: [
+  //     {
+  //       name: 'Adrian Pérez',
+  //       github: 'https://github.com/AdrianE121000',
+  //       img: 'https://unavatar.io/AdrianE121000',
+  //     },
+  //     {
+  //       name: 'Enmanuel Torres',
+  //       github: 'https://github.com/manu-tgz',
+  //       img: 'https://unavatar.io/manu-tgz',
+  //     },
+  //   ],
+  //   webapp: 'https://learndeals.netlify.app/',
+  // },
   {
     id: 1,
     title: 'Quiz App',
